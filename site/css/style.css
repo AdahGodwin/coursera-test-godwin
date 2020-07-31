@@ -293,6 +293,7 @@ h3.menu-item-title {
 	.container .jumbotron {
 		margin-top: 30px;
 		padding: 0; 
+		background: url("../images/jumbotron_720.jpg") no-repeat;
 	}
 	#menu-tile, #specials-tile {
 		width: 360px;
@@ -312,7 +313,13 @@ h3.menu-item-title {
 @media (max-width: 479px) {
 	.navbar-brand h1 {
 		padding-top: 5px;
-		font-size: 6vw; 
+		font-size: 6vw;
+
+	}
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0; 
+		background: url("../images/jumbotron_720.jpg") no-repeat;
 	}
     #menu-tile, #specials-tile {
 		width: 280px;
