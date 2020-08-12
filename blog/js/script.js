@@ -1,6 +1,5 @@
 
 
 function post() {
- document.querySelector(".fakeimg").innerHTML = document.querySelector("#text").value;
-
+ document.querySelector(".fakeimg").innerHTML =document.querySelector("#text").value;
 }

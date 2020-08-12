@@ -1,11 +1,11 @@
+
 body {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
-}
-.navbar {
-  background-color: white;
-  border: none;
+  color: #fff;
+  background: brown; 
+  font-family: 'Lora', serif;
+  text-shadow: 5px 3px 1px #222;
 }
 
 /* Header/Blog Title */
@@ -13,7 +13,7 @@ body {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background: maroon;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -32,14 +32,31 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
+  background: url("../images/20.jpg") no-repeat; 
+  width: 100%;
+  padding: 20px; 
+  overflow: visible;
+  height: 100px;
+}
+.fakeimg0 {
+  background: url("../images/202.jpg") no-repeat; 
   width: 100%;
   padding: 20px;
 }
-
+.fakeimg1 {
+  background: url("../images/201.jpg") no-repeat; 
+  width: 100%;
+  padding: 20px;
+}
+.fakeimg2 {
+  background: url("../images/FB.jpg"); 
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+}
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: maroon;
   padding: 20px;
   margin-top: 20px;
 }
@@ -55,14 +72,78 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: maroon;
   margin-top: 20px;
+  height: 180;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
+  .leftcolumn {
     width: 100%;
     padding: 0;
   }
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+  .about {
+    float: left;
+    width: 50%;
+  }
+}
+/*Phone number*/
+#call {
+text-align: right;
+}
+ a:hover {
+  text-decoration: none;
+  background: #fff;
+}
+#name {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Lora', serif;
+  text-shadow: 7px 3px 1px #222;
+}
+.star {
+  color: black;
+  text-shadow: 2px 2px 1px #fff;
+}
+/* Style all font awesome icons */
+  .fa {
+  padding: 1px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-right:10px;
+  text-shadow: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+.fa-whatsapp {
+  background: #55ACEE;
+  color: white;
 }
