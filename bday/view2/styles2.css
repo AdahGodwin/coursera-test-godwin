@@ -12,7 +12,7 @@ body {
     border: none;
   }
   
-  a.polaroid {
+  p.polaroid {
     display: block;
     text-decoration: none;
     color: #333;
@@ -27,9 +27,9 @@ body {
     box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
     -webkit-transition: -webkit-transform 0.5s ease-in;
   }
-  a.polaroid:hover,
-  a.polaroid:focus,
-  a.polaroid:active {
+  p.polaroid:hover,
+  p.polaroid:focus,
+  p.polaroid:active {
     z-index: 999;
     border-color: #6A6A6A;
     -webkit-box-shadow: 2px 2px 4px rgba(0,0, 0, 0.3);
@@ -45,7 +45,7 @@ body {
     height: 150px;
   }
   
-  a img {
+  p img {
     border: none;
     display: block;
   }
@@ -213,7 +213,7 @@ body {
     transform: rotate(-8deg);
   }
   
-  a:hover,
-  a:focus {
+  p:hover,
+  p:focus {
     z-index: 5;
   }
