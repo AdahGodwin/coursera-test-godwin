@@ -30,8 +30,8 @@ a {
   overflow: hidden;
 }
 .gallery li {
-  height: 100%;
-  width: 400px;
+  height: 500px;
+  width: 420px;
   background: #2E4053;
 }
 .gallery .flip {
@@ -97,7 +97,9 @@ a {
 }
 
 .gallery li:nth-child(1) .front-side {
-  background-image:url("../pics/FB_IMG_1.jpg");
+  background-image:url("../pics/IMG-20200910-WA0026.jpg");
+width: 420px;
+height: 480px;  
 }
 .gallery li:nth-child(1) .loader {
   border-top-color: #F39C12;
@@ -217,4 +219,6 @@ a {
     visibility: hidden;
     opacity: 0;
   }
+
 }
+
